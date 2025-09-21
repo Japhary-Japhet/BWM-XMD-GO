@@ -11,7 +11,7 @@
   "env": {
     "PREFIX": {
       "description": "Choose your prefix for your bot",
-      "value": "+bot",
+      "value": "+",
       "required": true
     },
     "AUTO_REJECT_CALL": {
@@ -137,7 +137,7 @@
     "WELCOME_MESSAGE": {
       "description": "Enable welcoming message in groups (yes/no)",
       "value": "no",
-      "required": false
+      "required": true
     },
     "GOODBYE_MESSAGE": {
       "description": "Enable  goodbye in groups (yes/no)",
@@ -152,52 +152,52 @@
     "MENU_TOP_LEFT": {
       "description": "Menu top left design",
       "value": "┌─❖",
-      "required": false
+      "required": true
     },
     "MENU_BOT_NAME_LINE": {
       "description": "Bot name line",
       "value": "│ ",
-      "required": false
+      "required": true
     },
     "MENU_BOTTOM_LEFT": {
       "description": "Menu bottom left",
       "value": "└┬❖",
-      "required": false
+      "required": true
     },
     "MENU_GREETING_LINE": {
       "description": "Greeting line",
       "value": "┌┤ ",
-      "required": false
+      "required": true
     },
     "MENU_DIVIDER": {
       "description": "Menu divider",
       "value": "│└────────┈⳹",
-      "required": false
+      "required": true
     },
     "MENU_USER_LINE": {
       "description": "User line in menu",
       "value": "│🕵️ ",
-      "required": false
+      "required": true
     },
     "MENU_DATE_LINE": {
       "description": "Date line in menu",
       "value": "│📅 ",
-      "required": false
+      "required": true
     },
     "MENU_TIME_LINE": {
       "description": "Time line in menu",
       "value": "│⏰ ",
-      "required": false
+      "required": true
     },
     "MENU_STATS_LINE": {
       "description": "Stats line in menu",
       "value": "│⭐ ",
-      "required": false
+      "required": true
     },
     "MENU_BOTTOM_DIVIDER": {
       "description": "Bottom divider of menu",
       "value": "└─────────────┈⳹",
-      "required": false
+      "required": true
     }
   },
   "formation": {
