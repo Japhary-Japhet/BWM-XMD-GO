@@ -11,7 +11,7 @@
   "env": {
     "PREFIX": {
       "description": "Choose your prefix for your bot",
-      "value": ".",
+      "value": "+bot",
       "required": true
     },
     "AUTO_REJECT_CALL": {
@@ -117,17 +117,17 @@
     "ANTIDELETE_SENT_INBOX": {
       "description": "Enable anti-delete to be sent inbox (yes/no)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "ANTIDELETE_RECOVER_CONVENTION": {
       "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
       "value": "no",
-      "required": false
+      "required": true
     },	  
     "GROUPANTILINK": {
       "description": "Enable anti-link in groups (yes/no)",
       "value": "no",
-      "required": false
+      "required": true
     },
     "CHATBOT": {
       "description": "Enable text chatbot (yes/no)",
