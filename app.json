@@ -51,8 +51,8 @@
     },
     "BOT_NAME": {
       "description": "Name for your bot",
-      "value": "BWM-XMD",
-      "required": false
+      "value": "myName",
+      "required": true
     },
     "BOT_URL": {
       "description": "Image or video url for your bot menu",
